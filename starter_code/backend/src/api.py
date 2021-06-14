@@ -99,9 +99,6 @@ def delete_drink(payload, id):
 
 
 # Error Handling
-'''
-Example error handling for unprocessable entity
-'''
 @app.errorhandler(422)
 def unprocessable(error):
     return jsonify({
